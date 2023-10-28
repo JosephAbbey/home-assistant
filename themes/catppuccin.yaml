@@ -45,15 +45,14 @@ Catppuccin Latte:
 
   primary-background-color: var(--mantle)
   secondary-background-color: var(--mantle)
-  accent-color: var(--yellow)
 
   # Text
   primary-text-color: var(--text)
   secondary-text-color: var(--subtext1)
   text-primary-color: var(--text)
   divider-color: var(--base)
-  disabled-text-color: var(--overlay0)
-  text-accent-color: var(--text)
+  accent-color: var(--sky)
+  disabled-text-color: var(--surface0)
 
   # Sidebar
   sidebar-background-color: var(--crust)
@@ -115,7 +114,7 @@ Catppuccin Latte:
   table-row-background-color: var(--primary-background-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   data-table-background-color: var(--primary-background-color)
-  mdc-checkbox-unchecked-color: var(--overlay0)
+  mdc-checkbox-unchecked-color: var(--surface0)
 
   # Dropdowns
   material-background-color: var(--primary-background-color)
@@ -197,7 +196,6 @@ Catppuccin Frappe:
   # Main Interface colors
   primary-color: var(--blue)
   light-primary-color: var(--primary-color)
-  accent-color: var(--yellow)
 
   primary-background-color: var(--base)
   secondary-background-color: var(--base)
@@ -207,8 +205,8 @@ Catppuccin Frappe:
   secondary-text-color: var(--subtext1)
   text-primary-color: var(--text)
   divider-color: var(--base)
-  disabled-text-color: var(--overlay0)
-  text-accent-color: var(--base)
+  accent-color: var(--sky)
+  disabled-text-color: var(--surface0)
 
   # Sidebar
   sidebar-background-color: var(--crust)
@@ -270,7 +268,7 @@ Catppuccin Frappe:
   table-row-background-color: var(--primary-background-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   data-table-background-color: var(--primary-background-color)
-  mdc-checkbox-unchecked-color: var(--overlay0)
+  mdc-checkbox-unchecked-color: var(--surface0)
 
   # Dropdowns
   material-background-color: var(--primary-background-color)
@@ -309,6 +307,7 @@ Catppuccin Frappe:
   state-off-color: var(--red)
 
 ####################### MACHIATO ####################
+
 Catppuccin Macchiato:
   # Colors
   text: "#cad3f5"
@@ -351,7 +350,6 @@ Catppuccin Macchiato:
   # Main Interface colors
   primary-color: var(--blue)
   light-primary-color: var(--primary-color)
-  accent-color: var(--yellow)
 
   primary-background-color: var(--base)
   secondary-background-color: var(--base)
@@ -361,8 +359,8 @@ Catppuccin Macchiato:
   secondary-text-color: var(--subtext1)
   text-primary-color: var(--text)
   divider-color: var(--base)
-  disabled-text-color: var(--overlay0)
-  text-accent-color: var(--base)
+  accent-color: var(--sky)
+  disabled-text-color: var(--surface0)
 
   # Sidebar
   sidebar-background-color: var(--crust)
@@ -424,7 +422,7 @@ Catppuccin Macchiato:
   table-row-background-color: var(--primary-background-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   data-table-background-color: var(--primary-background-color)
-  mdc-checkbox-unchecked-color: var(--overlay0)
+  mdc-checkbox-unchecked-color: var(--surface0)
 
   # Dropdowns
   material-background-color: var(--primary-background-color)
@@ -463,6 +461,7 @@ Catppuccin Macchiato:
   state-off-color: var(--red)
 
 ####################### MOCHA #######################
+
 Catppuccin Mocha:
   # Colors
   text: "#cdd6f4"
@@ -505,9 +504,8 @@ Catppuccin Mocha:
   app-header-text-color: var(--text)
 
   # Main Interface colors
-  primary-color: var(--blue)
+  primary-color: var(--teal)
   light-primary-color: var(--primary-color)
-  accent-color: var(--yellow)
 
   primary-background-color: var(--base)
   secondary-background-color: var(--base)
@@ -515,10 +513,10 @@ Catppuccin Mocha:
   # Text
   primary-text-color: var(--text)
   secondary-text-color: var(--subtext1)
-  text-primary-color: var(--text)
+  text-primary-color: var(--text-dark)
   divider-color: var(--base)
-  disabled-text-color: var(--overlay0)
-  text-accent-color: var(--crust)
+  accent-color: var(--sky)
+  disabled-text-color: var(--surface0)
 
   # Sidebar
   sidebar-background-color: var(--crust)
@@ -526,8 +524,8 @@ Catppuccin Mocha:
 
   sidebar-icon-color: var(--subtext0)
   sidebar-text-color: var(--subtext0)
-  sidebar-selected-icon-color: var(--mauve)
-  sidebar-selected-text-color: var(--mauve)
+  sidebar-selected-icon-color: var(--primary-color)
+  sidebar-selected-text-color: var(--primary-color)
 
   # Buttons
   paper-item-icon-color: var(--subtext0)
@@ -539,12 +537,76 @@ Catppuccin Mocha:
 
   state-icon-unavailable-color: var(--disabled-text-color)
 
+  state-active-color: var(--peach)
+  state-inactive-color: var(--overlay1)
+  state-unavailable-color: var(--overlay2)
+  state-alarm_control_panel-armed_away-color: var(--green)
+  state-alarm_control_panel-armed_custom_bypass-color: var(--green)
+  state-alarm_control_panel-armed_home-color: var(--green)
+  state-alarm_control_panel-armed_night-color: var(--green)
+  state-alarm_control_panel-armed_vacation-color: var(--green)
+  state-alarm_control_panel-arming-color: var(--peach)
+  state-alarm_control_panel-disarming-color: var(--peach)
+  state-alarm_control_panel-pending-color: var(--peach)
+  state-alarm_control_panel-triggered-color: var(--red)
+  state-alert-off-color: var(--peach)
+  state-alert-on-color: var(--red)
+  state-binary_sensor-active-color: var(--peach)
+  state-binary_sensor-battery-on-color: var(--red)
+  state-binary_sensor-carbon_monoxide-on-color: var(--red)
+  state-binary_sensor-gas-on-color: var(--red)
+  state-binary_sensor-heat-on-color: var(--red)
+  state-binary_sensor-lock-on-color: var(--red)
+  state-binary_sensor-moisture-on-color: var(--red)
+  state-binary_sensor-problem-on-color: var(--red)
+  state-binary_sensor-safety-on-color: var(--red)
+  state-binary_sensor-smoke-on-color: var(--red)
+  state-binary_sensor-sound-on-color: var(--red)
+  state-binary_sensor-tamper-on-color: var(--red)
+  state-climate-auto-color: var(--green)
+  state-climate-cool-color: var(--blue)
+  state-climate-dry-color: var(--peach)
+  state-climate-fan_only-color: var(--sky)
+  state-climate-heat-color: var(--peach)
+  state-climate-heat-cool-color: var(--peach)
+  state-cover-active-color: var(--purple)
+  state-device_tracker-active-color: var(--blue)
+  state-device_tracker-home-color: var(--green)
+  state-fan-active-color: var(--cyan)
+  state-humidifier-on-color: var(--blue)
+  state-lawn_mower-error-color: var(--red)
+  state-lawn_mower-mowing-color: var(--teal)
+  state-light-active-color: var(--peach)
+  state-lock-jammed-color: var(--red)
+  state-lock-locked-color: var(--green)
+  state-lock-pending-color: var(--peach)
+  state-lock-unlocked-color: var(--red)
+  state-media_player-active-color: var(--sapphire)
+  state-person-active-color: var(--blue)
+  state-person-home-color: var(--green)
+  state-plant-active-color: var(--red)
+  state-siren-active-color: var(--red)
+  state-sun-above_horizon-color: var(--peach)
+  state-sun-below_horizon-color: var(--blue)
+  state-switch-active-color: var(--peach)
+  state-update-active-color: var(--peach)
+  state-vacuum-active-color: var(--teal)
+  state-sensor-battery-high-color: var(--green)
+  state-sensor-battery-low-color: var(--red)
+  state-sensor-battery-medium-color: var(--peach)
+  state-water_heater-eco-color: var(--green)
+  state-water_heater-electric-color: var(--peach)
+  state-water_heater-gas-color: var(--peach)
+  state-water_heater-heat_pump-color: var(--peach)
+  state-water_heater-high_demand-color: var(--peach)
+  state-water_heater-performance-color: var(--peach)
+
   # Sliders
-  paper-slider-knob-color: var(--blue)
+  paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
-  paper-slider-secondary-color: var(--blue)
+  paper-slider-secondary-color: var(--primary-color)
 
   # Labels
   label-badge-background-color: var(--surface0)
@@ -566,10 +628,11 @@ Catppuccin Mocha:
   paper-card-background-color: var(--card-background-color)
 
   # Switches
-  switch-checked-button-color: var(--green)
-  switch-checked-track-color: var(--surface0)
+  switch-checked-button-color: var(--primary-color)
+  switch-checked-track-color: var(--surface1)
   switch-unchecked-button-color: rgb(--overlay0)
   switch-unchecked-track-color: rgb(--surface0)
+
   # Toggles
   paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
   paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
@@ -580,7 +643,7 @@ Catppuccin Mocha:
   table-row-background-color: var(--primary-background-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   data-table-background-color: var(--primary-background-color)
-  mdc-checkbox-unchecked-color: var(--overlay0)
+  mdc-checkbox-unchecked-color: var(--surface0)
 
   # Dropdowns
   material-background-color: var(--primary-background-color)
@@ -617,3 +680,80 @@ Catppuccin Mocha:
 
   state-on-color: var(--green)
   state-off-color: var(--red)
+
+  disabled-color: var(--overlay2)
+  red-color: var(--red)
+  pink-color: var(--pink)
+  purple-color: var(--mauve)
+  deep-purple-color: var(--mauve)
+  indigo-color: var(--blue)
+  blue-color: var(--blue)
+  light-blue-color: var(--sapphire)
+  cyan-color: var(--sky)
+  teal-color: var(--teal)
+  green-color: var(--green)
+  light-green-color: var(--green)
+  lime-color: var(--green)
+  yellow-color: var(--yellow)
+  amber-color: var(--peach)
+  orange-color: var(--peach)
+  deep-orange-color: var(--peach)
+  brown-color: var(--maroon)
+  light-grey-color: var(--overlay2)
+  grey-color: var(--overlay2)
+  dark-grey-color: var(--overlay2)
+  blue-grey-color: var(--overlay2)
+
+  # Mushroom (requires a different format)
+  text-rgb: 205, 214, 244
+  text-dark-rgb: 0, 0, 0
+
+  rosewater-rgb: 245, 224, 220
+  flamingo-rgb: 242, 205, 205
+  pink-rgb: 245, 194, 231
+  mauve-rgb: 203, 166, 247
+  red-rgb: 243, 139, 168
+  maroon-rgb: 235, 160, 172
+  peach-rgb: 250, 179, 135
+  yellow-rgb: 249, 226, 175
+  green-rgb: 166, 227, 161
+  teal-rgb: 148, 226, 213
+  sky-rgb: 137, 220, 235
+  sapphire-rgb: 116, 199, 236
+  blue-rgb: 137, 180, 250
+  lavender-rgb: 180, 190, 254
+
+  subtext1-rgb: 186, 194, 222
+  subtext0-rgb: 166, 173, 200
+
+  overlay2-rgb: 147, 153, 178
+  overlay1-rgb: 127, 132, 156
+  overlay0-rgb: 108, 112, 134
+
+  surface2-rgb: 88, 91, 112
+  surface1-rgb: 69, 71, 90
+  surface0-rgb: 49, 50, 68
+
+  base-rgb: 30, 30, 46
+  mantle-rgb: 24, 24, 37
+  crust-rgb: 17, 17, 27
+
+  mush-rgb-red: var(--red-rgb)
+  mush-rgb-pink: var(--pink-rgb)
+  mush-rgb-purple: var(--mauve-rgb)
+  mush-rgb-deep-purple: var(--mauve-rgb)
+  mush-rgb-indigo: var(--blue-rgb)
+  mush-rgb-blue: var(--blue-rgb)
+  mush-rgb-light-blue: var(--sapphire-rgb)
+  mush-rgb-cyan: var(--sky-rgb)
+  mush-rgb-teal: var(--teal-rgb)
+  mush-rgb-green: var(--green-rgb)
+  mush-rgb-light-green: var(--green-rgb)
+  mush-rgb-lime: var(--green-rgb)
+  mush-rgb-yellow: var(--yellow-rgb)
+  mush-rgb-amber: var(--peach-rgb)
+  mush-rgb-orange: var(--peach-rgb)
+  mush-rgb-deep-orange: var(--peach-rgb)
+  mush-rgb-brown: var(--maroon-rgb)
+  mush-rgb-grey: var(--overlay2-rgb)
+  mush-rgb-blue-grey: var(--lavendar-rgb)
